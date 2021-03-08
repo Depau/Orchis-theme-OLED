@@ -411,7 +411,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .modal-dialog {
   border-radius: 24px;
   color: rgba(255, 255, 255, 0.9);
-  background-color: #202020;
+  background-color: #101010;
   box-shadow: 0 0 transparent;
 }
 
@@ -1094,7 +1094,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 .popup-menu-boxpointer .popup-menu-content {
   margin-left: 9px;
-  background-color: rgba(32, 32, 32, 0.95);
+  background-color: rgba(16, 16, 16, 0.95);
   border-radius: 12px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.285), 0 6px 3px rgba(0, 0, 0, 0.345);
 }
@@ -1338,7 +1338,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 .resize-popup,
 .switcher-list, .workspace-switcher-container {
   color: rgba(255, 255, 255, 0.9);
-  background-color: #202020;
+  background-color: #101010;
   border: none;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
   border-radius: 12px;
@@ -2845,17 +2845,17 @@ StWidget.focused .app-well-app-running-dot {
   margin: 5px;
   border-radius: 12px;
   color: rgba(255, 255, 255, 0.9);
-  background-color: rgba(32, 32, 32, 0.92);
+  background-color: rgba(16, 16, 16, 0.92);
   border: none;
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.24), 0 3px 3px rgba(0, 0, 0, 0.345);
 }
 
 .notification-banner:hover {
-  background-color: rgba(32, 32, 32, 0.95);
+  background-color: rgba(16, 16, 16, 0.95);
 }
 
 .notification-banner:focus {
-  background-color: #202020;
+  background-color: #101010;
 }
 
 .notification-banner .notification-icon {
@@ -3233,7 +3233,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .candidate-popup-content {
-  background-color: rgba(32, 32, 32, 0.95);
+  background-color: rgba(16, 16, 16, 0.95);
   border-radius: 12px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.285), 0 6px 3px rgba(0, 0, 0, 0.345);
   margin: 3px 8px;
@@ -3750,7 +3750,7 @@ StWidget.focused .app-well-app-running-dot {
 
 #LookingGlassDialog {
   color: rgba(255, 255, 255, 0.7);
-  background-color: #202020;
+  background-color: #101010;
   spacing: 4px;
   padding: 6px;
   border: none;
@@ -3762,7 +3762,7 @@ StWidget.focused .app-well-app-running-dot {
   padding: 0 8px;
   border: none;
   border-radius: 0;
-  background-color: rgba(32, 32, 32, 0.01);
+  background-color: rgba(16, 16, 16, 0.01);
   box-shadow: inset 0 -1px 0 rgba(255, 255, 255, 0.12);
 }
 
@@ -3789,7 +3789,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #LookingGlassDialog .notebook-tab:selected {
-  background-color: rgba(32, 32, 32, 0.01);
+  background-color: rgba(16, 16, 16, 0.01);
   box-shadow: inset 0 -2px 0 #757575;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: none;
@@ -3891,7 +3891,7 @@ StWidget.focused .app-well-app-running-dot {
 .lg-extension {
   border: none;
   border-radius: 12px;
-  background-color: #606060;
+  background-color: #505050;
   padding: 4px;
 }
 
@@ -3905,7 +3905,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #LookingGlassPropertyInspector {
-  background: #202020;
+  background: #101010;
   border: none;
   border-radius: 12px;
   padding: 6px;
