@@ -3113,7 +3113,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #keyboard {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.7);
   border: none;
   border-top-width: 0;
   box-shadow: none;

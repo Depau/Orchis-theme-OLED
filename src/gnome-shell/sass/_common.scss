@@ -2637,7 +2637,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #keyboard {
-  background-color: rgba(black, 0.65);
+  background-color: rgba(black, 0.7);
 
   border: none;
   border-top-width: 0;
@@ -2662,8 +2662,8 @@ StWidget.focused .app-well-app-running-dot {
   spacing: 4px;
 }
 
-$keyboard_hover_bg_color: if($variant == 'light', darken($keyboard_bg_color, 10%), lighten($keyboard_bg_color, 10%));
-$keyboard_active_bg_color: if($variant == 'light', darken($keyboard_bg_color, 20%), lighten($keyboard_bg_color, 20%));
+$keyboard_hover_bg_color: if($variant == 'light', darken($keyboard_bg_color, 10%), lighten($keyboard_bg_color, 5%));
+$keyboard_active_bg_color: if($variant == 'light', darken($keyboard_bg_color, 20%), lighten($keyboard_bg_color, 10%));
 
 .keyboard-key {
   min-height: 2em;

@@ -3113,7 +3113,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #keyboard {
-  background-color: rgba(0, 0, 0, 0.65);
+  background-color: rgba(0, 0, 0, 0.7);
   border: none;
   border-top-width: 0;
   box-shadow: none;
@@ -3145,18 +3145,18 @@ StWidget.focused .app-well-app-running-dot {
   border-radius: 12px;
   border: none;
   color: inherit;
-  background-color: #414141;
+  background-color: #181818;
   box-shadow: 0 1px rgba(0, 0, 0, 0.2);
 }
 
 .keyboard-key:focus, .keyboard-key:hover {
   color: rgba(255, 255, 255, 0.9);
-  background-color: #5b5b5b;
+  background-color: #252525;
 }
 
 .keyboard-key:checked, .keyboard-key:active {
   color: rgba(255, 255, 255, 0.9);
-  background-color: #747474;
+  background-color: #323232;
 }
 
 .keyboard-key:grayed {
@@ -3166,18 +3166,18 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 .keyboard-key.default-key {
-  background-color: #212121;
+  background-color: #101010;
   box-shadow: 0 1px rgba(0, 0, 0, 0.2);
 }
 
 .keyboard-key.default-key:focus, .keyboard-key.default-key:hover {
   color: rgba(255, 255, 255, 0.8);
-  background-color: #414141;
+  background-color: #181818;
 }
 
 .keyboard-key.default-key:checked, .keyboard-key.default-key:active {
   color: rgba(255, 255, 255, 0.8);
-  background-color: #323232;
+  background-color: #090909;
 }
 
 .keyboard-key.enter-key {
