@@ -1359,7 +1359,7 @@ searchbar > revealer > box {
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1), color 75ms cubic-bezier(0, 0, 0.2, 1);
   border-radius: 18px 18px 0 0;
   box-shadow: inset 0 -1px rgba(0, 0, 0, 0.12), inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #2C2C2C;
+  background-color: #000000;
   color: white;
 }
 
@@ -1368,7 +1368,7 @@ searchbar > revealer > box {
 }
 
 .titlebar:backdrop {
-  background-color: #2C2C2C;
+  background-color: #000000;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -1506,7 +1506,7 @@ searchbar > revealer > box {
 }
 
 .titlebar.default-decoration {
-  background-color: #2C2C2C;
+  background-color: #000000;
   min-height: 24px;
   padding: 4px;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
@@ -1514,7 +1514,7 @@ searchbar > revealer > box {
 }
 
 .titlebar.default-decoration:backdrop {
-  background-color: #2C2C2C;
+  background-color: #000000;
 }
 
 .tiled .titlebar.default-decoration, .maximized .titlebar.default-decoration, .fullscreen .titlebar.default-decoration {
@@ -1548,7 +1548,7 @@ headerbar:not(.titlebar) {
 }
 
 box.vertical headerbar {
-  background-color: #2C2C2C;
+  background-color: #000000;
 }
 
 headerbar entry,
@@ -1758,13 +1758,13 @@ menubar,
 .menubar {
   -GtkWidget-window-dragging: true;
   padding: 0;
-  background-color: #2C2C2C;
+  background-color: #000000;
   color: white;
 }
 
 menubar:backdrop,
 .menubar:backdrop {
-  background-color: #2C2C2C;
+  background-color: #000000;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -3869,11 +3869,11 @@ messagedialog.csd decoration {
   border-radius: 0;
   box-shadow: none;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #2C2C2C;
+  background-color: #000000;
 }
 
 .solid-csd decoration:backdrop {
-  background-color: #2C2C2C;
+  background-color: #000000;
 }
 
 XfdesktopIconView.view:active, calendar.raven-calendar:selected, .budgie-popover.budgie-menu button.flat:not(.image-button):not(.indicator-item):checked, box.vertical > widget > widget:selected, modelbutton.flat:selected,
@@ -4054,13 +4054,13 @@ popover.emoji-completion .emoji:hover {
  * Nautilus *
  ************/
 .nautilus-window.csd {
-  background-color: #2C2C2C;
+  background-color: #000000;
   border-radius: 0 0 18px 18px;
 }
 
 .nautilus-window.csd headerbar {
   padding-left: 12px;
-  background-color: #2C2C2C;
+  background-color: #000000;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
 }
 
@@ -6102,12 +6102,12 @@ UnityDecoration .top {
   border-style: none;
   border-radius: 18px 18px 0 0;
   box-shadow: inset 0 1px rgba(255, 255, 255, 0.1);
-  background-color: #2C2C2C;
+  background-color: #000000;
   color: white;
 }
 
 UnityDecoration .top:backdrop {
-  background-color: #2C2C2C;
+  background-color: #000000;
   color: rgba(255, 255, 255, 0.7);
 }
 
@@ -7511,7 +7511,7 @@ window.background.csd.thunar > grid.horizontal > paned.horizontal > scrolledwind
  * Nemo *
  ********/
 .nemo-window .primary-toolbar {
-  background-color: #2C2C2C;
+  background-color: #000000;
   border-bottom: 1px solid rgba(0, 0, 0, 0.12);
 }
 
@@ -7635,8 +7635,8 @@ read if you used those and something break with a version upgrade you're on your
 @define-color wm_title white;
 @define-color wm_unfocused_title rgba(255, 255, 255, 0.7);
 @define-color wm_highlight rgba(255, 255, 255, 0.1);
-@define-color wm_bg #2C2C2C;
-@define-color wm_unfocused_bg #2C2C2C;
+@define-color wm_bg #000000;
+@define-color wm_unfocused_bg #000000;
 /*
 FIXME this is really an API */
 @define-color content_view_bg #FFFFFF;

@@ -71,10 +71,10 @@
 $primary:                               theme(color);
 $drop_target_color:                     #FF7043;
 
-$background:                            if($variant == 'light', #F2F2F2, #212121);
-$surface:                               if($variant == 'light', #FFFFFF, #3C3C3C);
-$base:                                  if($variant == 'light', #FFFFFF, #2C2C2C); // semi-surface with 1dp elevation
-$base-alt:                              if($variant == 'light', #FAFAFA, #242424);
+$background:                            if($variant == 'light', #F2F2F2, #101010);
+$surface:                               if($variant == 'light', #FFFFFF, #1e1e1e);
+$base:                                  if($variant == 'light', #FFFFFF, #161616); // semi-surface with 1dp elevation
+$base-alt:                              if($variant == 'light', #FAFAFA, #121212);
 
 $os-background:                         #212121;
 $tooltip:                               rgba(#616161, 0.9);
