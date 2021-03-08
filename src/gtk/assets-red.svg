@@ -22,13 +22,13 @@
    <stop stop-color="#F2F2F2" offset="1"/>
   </linearGradient>
   <linearGradient id="color-background-dark">
-   <stop stop-color="#212121" offset="1"/>
+   <stop stop-color="#070707" offset="1"/>
   </linearGradient>
   <linearGradient id="color-surface" x2="40" gradientUnits="userSpaceOnUse">
    <stop stop-color="#FFFFFF" offset="1"/>
   </linearGradient>
   <linearGradient id="color-surface-dark" x2="40" gradientUnits="userSpaceOnUse">
-   <stop stop-color="#3C3C3C" offset="1"/>
+   <stop stop-color="#151515" offset="1"/>
   </linearGradient>
   <g id="base-scale-slider">
    <rect width="24" height="24" fill="none"/>
@@ -166,12 +166,12 @@
   <use width="100%" height="100%" fill="url(#color-on-primary-light)" xlink:href="#base-selectionmode-checkmark"/>
  </g>
  <g id="row-selected" transform="translate(138,17)">
-  <rect x="72" y="233" width="120" height="54" fill="#2c2c2c" style="paint-order:stroke fill markers"/>
+  <rect x="72" y="233" width="120" height="54" fill="#101010" style="paint-order:stroke fill markers"/>
   <path d="m192 233c0 4.986-4.014 9-9 9h-93c-9.972 0-18 8.028-18 18s8.028 18 18 18h93c4.986 0 9 4.014 9 9v-45z" fill="#ffffff" style="paint-order:stroke fill markers"/>
  </g>
  <g id="row-selected-dark" transform="translate(138,-103)">
   <rect x="72" y="233" width="120" height="54" fill="url(#linearGradient1064)" opacity=".08" style="paint-order:stroke fill markers"/>
-  <path d="m192 233c0 4.986-4.014 9-9 9h-93c-9.972 0-18 8.028-18 18s8.028 18 18 18h93c4.986 0 9 4.014 9 9v-45z" fill="#2c2c2c" style="paint-order:stroke fill markers"/>
+  <path d="m192 233c0 4.986-4.014 9-9 9h-93c-9.972 0-18 8.028-18 18s8.028 18 18 18h93c4.986 0 9 4.014 9 9v-45z" fill="#101010" style="paint-order:stroke fill markers"/>
  </g>
  <g id="row-selected-light" transform="translate(-62,-103)">
   <rect x="72" y="233" width="120" height="54" fill="url(#linearGradient1066)" opacity=".08" style="paint-order:stroke fill markers"/>
