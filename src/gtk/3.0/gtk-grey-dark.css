@@ -329,7 +329,7 @@ entry image.right {
 spinbutton.vertical undershoot.left, spinbutton:not(.vertical) undershoot.left,
 entry undershoot.left {
   background-color: transparent;
-  background-image: linear-gradient(to top, transparent 50%, rgba(255, 255, 255, 0.3) 50%);
+  background-image: linear-gradient(to top, transparent 50%, rgba(255, 255, 255, 0.15) 50%);
   padding-left: 1px;
   background-size: 1px 12px;
   background-repeat: repeat-y;
@@ -342,7 +342,7 @@ entry undershoot.left {
 spinbutton.vertical undershoot.right, spinbutton:not(.vertical) undershoot.right,
 entry undershoot.right {
   background-color: transparent;
-  background-image: linear-gradient(to top, transparent 50%, rgba(255, 255, 255, 0.3) 50%);
+  background-image: linear-gradient(to top, transparent 50%, rgba(255, 255, 255, 0.15) 50%);
   padding-right: 1px;
   background-size: 1px 12px;
   background-repeat: repeat-y;
@@ -500,7 +500,7 @@ treeview entry.flat, treeview entry.flat:focus, treeview entry, treeview entry:f
   margin: 2px;
   border-radius: 9999px;
   box-shadow: none;
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.8);
   color: white;
 }
 
@@ -1176,7 +1176,7 @@ button.combo:only-child {
 
 button.combo:only-child:focus {
   background-color: alpha(currentColor, 0.08);
-  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.3);
+  box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.15);
 }
 
 button.combo:only-child:hover {
@@ -1626,7 +1626,7 @@ headerbar .entry-tag, headerbar .photos-entry-tag, headerbar .documents-entry-ta
  * Tree Views *
  **************/
 treeview.view, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:not(.progressbar):not(.trough), filechooser stack.view scrolledwindow treeview.view {
-  border-left-color: rgba(255, 255, 255, 0.3);
+  border-left-color: rgba(255, 255, 255, 0.15);
   border-top-color: rgba(255, 255, 255, 0.04);
 }
 
@@ -1701,7 +1701,7 @@ treeview.view.progressbar:selected:hover, window#gnome-system-monitor.background
 }
 
 treeview.view.trough, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.trough.view:not(.progressbar):not(.trough), filechooser stack.view scrolledwindow treeview.trough.view {
-  border-bottom: 6px solid rgba(255, 255, 255, 0.12);
+  border-bottom: 6px solid rgba(255, 255, 255, 0.8);
   box-shadow: none;
   background-color: transparent;
   background-image: none;
@@ -2407,7 +2407,7 @@ switch {
   padding: 0 2px;
   border: 5px solid transparent;
   border-radius: 9999px;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.15);
   background-clip: padding-box;
   font-size: 0;
 }
@@ -2740,11 +2740,11 @@ scale.fine-tune slider {
 scale trough {
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
   outline: none;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 scale trough:disabled {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 scale highlight {
@@ -2759,7 +2759,7 @@ scale highlight:disabled {
 
 scale fill {
   transition: background-color 75ms cubic-bezier(0, 0, 0.2, 1);
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 scale fill:disabled {
@@ -2809,7 +2809,7 @@ scale value {
 }
 
 scale indicator {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.15);
   color: transparent;
 }
 
@@ -2963,7 +2963,7 @@ progressbar.vertical progress {
 
 progressbar trough {
   border-radius: 12px;
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 progressbar progress {
@@ -3019,7 +3019,7 @@ levelbar block.full {
 }
 
 levelbar block.empty {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /****************
@@ -3121,7 +3121,7 @@ overshoot.right {
 
 undershoot.top {
   background-color: transparent;
-  background-image: linear-gradient(to left, transparent 50%, rgba(255, 255, 255, 0.3) 50%);
+  background-image: linear-gradient(to left, transparent 50%, rgba(255, 255, 255, 0.15) 50%);
   padding-top: 1px;
   background-size: 12px 1px;
   background-repeat: repeat-x;
@@ -3132,7 +3132,7 @@ undershoot.top {
 
 undershoot.bottom {
   background-color: transparent;
-  background-image: linear-gradient(to left, transparent 50%, rgba(255, 255, 255, 0.3) 50%);
+  background-image: linear-gradient(to left, transparent 50%, rgba(255, 255, 255, 0.15) 50%);
   padding-bottom: 1px;
   background-size: 12px 1px;
   background-repeat: repeat-x;
@@ -3143,7 +3143,7 @@ undershoot.bottom {
 
 undershoot.left {
   background-color: transparent;
-  background-image: linear-gradient(to top, transparent 50%, rgba(255, 255, 255, 0.3) 50%);
+  background-image: linear-gradient(to top, transparent 50%, rgba(255, 255, 255, 0.15) 50%);
   padding-left: 1px;
   background-size: 1px 12px;
   background-repeat: repeat-y;
@@ -3155,7 +3155,7 @@ undershoot.left {
 
 undershoot.right {
   background-color: transparent;
-  background-image: linear-gradient(to top, transparent 50%, rgba(255, 255, 255, 0.3) 50%);
+  background-image: linear-gradient(to top, transparent 50%, rgba(255, 255, 255, 0.15) 50%);
   padding-right: 1px;
   background-size: 1px 12px;
   background-repeat: repeat-y;
@@ -4362,8 +4362,8 @@ popover.emoji-completion .emoji:hover {
 }
 
 .disk-space-display.unknown {
-  background-color: rgba(255, 255, 255, 0.3);
-  color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.15);
+  color: rgba(255, 255, 255, 0.15);
 }
 
 .disk-space-display.used {
@@ -4372,8 +4372,8 @@ popover.emoji-completion .emoji:hover {
 }
 
 .disk-space-display.free {
-  background-color: rgba(255, 255, 255, 0.12);
-  color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 0.8);
 }
 
 .search-information {
@@ -5793,7 +5793,7 @@ button.flat.tilix-small-button {
  *************/
 #live_installer .menubar progressbar trough {
   border-radius: 4px;
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 /***********
@@ -5821,7 +5821,7 @@ window.background.chromium {
 
 window.background.chromium entry,
 window.background.chromium > button {
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 window.background.chromium > button {
@@ -5855,7 +5855,7 @@ window.background.chromium treeview.view.cell:selected:focus, window.background.
 }
 
 window.background.chromium treeview.view button, window.background.chromium filechooser stack.view scrolledwindow treeview.view button, filechooser stack.view scrolledwindow window.background.chromium treeview.view button, window.background.chromium window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow treeview.view:not(.progressbar):not(.trough) button, window#gnome-system-monitor.background.csd > box.vertical > stack > box.vertical > scrolledwindow window.background.chromium treeview.view:not(.progressbar):not(.trough) button {
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   background-color: #101010;
 }
 
@@ -5880,19 +5880,19 @@ tooltip.background.chromium {
 }
 
 #MozillaGtkWidget > widget > frame > border {
-  border-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.15);
 }
 
 #MozillaGtkWidget > widget > entry,
 #MozillaGtkWidget > widget > button > button {
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 12px;
   box-shadow: none;
 }
 
 #MozillaGtkWidget > widget > entry:disabled,
 #MozillaGtkWidget > widget > button > button:disabled {
-  border-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.8);
 }
 
 #MozillaGtkWidget > widget > entry {
@@ -5961,7 +5961,7 @@ tooltip.background.chromium {
 }
 
 #MozillaGtkWidget > widget > frame {
-  color: rgba(255, 255, 255, 0.3);
+  color: rgba(255, 255, 255, 0.15);
 }
 
 #MozillaGtkWidget menu > separator {
@@ -6623,7 +6623,7 @@ MsdOsdWindow.background.osd {
 
 MsdOsdWindow.background.osd .trough {
   border-radius: 0;
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 MsdOsdWindow.background.osd .progressbar {
@@ -6980,7 +6980,7 @@ MsdOsdWindow.background.osd .progressbar {
 }
 
 .budgie-panel separator {
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.15);
 }
 
 .budgie-panel .alert {
