@@ -77,7 +77,7 @@ $alt_primary_color: darken($primary_color, 3%);
 $accent_color: lighten($primary_color, 3%);
 
 $panel_bg: if($variant == 'light', #000000, #000000);
-$panel_bg_color: if($trans == 'true', rgba($panel_bg, 0.8), $panel_bg);
+$panel_bg_color: $panel_bg; // if($trans == 'true', rgba($panel_bg, 0.8), $panel_bg);
 $panel_fg_color: if($panel == 'dark', #dedede, #dedede);
 $menu_bg_color: if($trans == 'true', rgba($base_color, 0.95), $base_color);
 

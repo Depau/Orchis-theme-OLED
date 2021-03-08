@@ -1364,12 +1364,10 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000000;
   transition-duration: 250ms;
   font-weight: bold;
   height: 34px;
-  border-radius: 9999px;
-  margin: 2px;
 }
 
 #panel:overview, #panel.unlock-screen, #panel.login-screen, #panel.lock-screen {
@@ -1388,7 +1386,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 
 #panel .panel-corner {
   -panel-corner-radius: 0;
-  -panel-corner-background-color: rgba(0, 0, 0, 0.8);
+  -panel-corner-background-color: #000000;
   -panel-corner-border-width: 0;
   -panel-corner-border-color: transparent;
 }
@@ -1516,7 +1514,7 @@ StScrollBar StButton#vhandle:active, StScrollBar StButton#hhandle:active {
 }
 
 #panel.solid .panel-corner {
-  -panel-corner-background-color: rgba(0, 0, 0, 0.8);
+  -panel-corner-background-color: #000000;
 }
 
 #panel.solid .panel-button {
@@ -3955,7 +3953,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #dashtodockContainer #dash {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000000;
   box-shadow: none;
 }
 
@@ -3964,11 +3962,11 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #dashtodockContainer.transparent #dash {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000000;
 }
 
 #dashtodockContainer:overview #dash {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000000;
 }
 
 #dashtodockContainer.opaque:overview #dash, #dashtodockContainer.transparent:overview #dash {
@@ -3977,7 +3975,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #dashtodockContainer.extended:overview #dash, #dashtodockContainer.opaque.extended:overview #dash, #dashtodockContainer.transparent.extended:overview #dash {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000000;
 }
 
 #dashtodockContainer .app-well-app .overview-icon,
@@ -3987,7 +3985,7 @@ StWidget.focused .app-well-app-running-dot {
 }
 
 #dash:desktop {
-  background-color: rgba(0, 0, 0, 0.8);
+  background-color: #000000;
 }
 
 .openweather-button, .openweather-button-action, .openweather-menu-button-container, .openweather-button-box {

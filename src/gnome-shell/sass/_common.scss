@@ -1159,8 +1159,8 @@ $mdborder_color: if($variant == 'light', transparent, rgba($white, 0.15));
   transition-duration: 250ms; // transition from solid to transparent
   font-weight: bold;
   height: $medium_size + 2px;
-  border-radius: $circular_radius;
-  margin: $container_padding / 2;
+ // border-radius: $circular_radius;
+ // margin: $container_padding / 2;
   // margin-bottom: 0;
 
   &:overview,
