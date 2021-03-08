@@ -49,11 +49,14 @@ install() {
   local theme="$3"
   local color="$4"
   local size="$5"
+  local thalias="$color"
 
   [[ "$color" == '-dark' ]] && local ELSE_DARK="$color"
   [[ "$color" == '-light' ]] && local ELSE_LIGHT="$color"
 
-  local THEME_DIR="$dest/$name$theme$color$size"
+  [[ "$color" == '-dark' ]] && local thalias="-oled"
+
+  local THEME_DIR="$dest/$name$theme$thalias$size"
 
   [[ -d "$THEME_DIR" ]] && rm -rf "${THEME_DIR:?}"
 
@@ -64,13 +67,13 @@ install() {
 
   echo "[Desktop Entry]" >>                                                     "${THEME_DIR}/index.theme"
   echo "Type=X-GNOME-Metatheme" >>                                              "${THEME_DIR}/index.theme"
-  echo "Name=$name$theme$color$size" >>                                         "${THEME_DIR}/index.theme"
+  echo "Name=$name$theme$thalias$size" >>                                       "${THEME_DIR}/index.theme"
   echo "Comment=An Materia Gtk+ theme based on Elegant Design" >>               "${THEME_DIR}/index.theme"
   echo "Encoding=UTF-8" >>                                                      "${THEME_DIR}/index.theme"
   echo "" >>                                                                    "${THEME_DIR}/index.theme"
   echo "[X-GNOME-Metatheme]" >>                                                 "${THEME_DIR}/index.theme"
-  echo "GtkTheme=$name$theme$color$size" >>                                     "${THEME_DIR}/index.theme"
-  echo "MetacityTheme=$name$theme$color$size" >>                                "${THEME_DIR}/index.theme"
+  echo "GtkTheme=$name$theme$thalias$size" >>                                   "${THEME_DIR}/index.theme"
+  echo "MetacityTheme=$name$theme$thalias$size" >>                              "${THEME_DIR}/index.theme"
   echo "IconTheme=Tela-circle${ELSE_DARK:-}" >>                                 "${THEME_DIR}/index.theme"
   echo "CursorTheme=Vimix${ELSE_DARK:-}" >>                                     "${THEME_DIR}/index.theme"
   echo "ButtonLayout=close,minimize,maximize:menu" >>                           "${THEME_DIR}/index.theme"
