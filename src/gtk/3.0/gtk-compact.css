@@ -1334,12 +1334,12 @@ searchbar > revealer > box {
 }
 
 .nemo-window .primary-toolbar entry, .titlebar entry {
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(255, 255, 255, 0.1);
   color: white;
 }
 
 .nemo-window .primary-toolbar entry:disabled, .titlebar entry:disabled {
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1403,7 +1403,7 @@ searchbar > revealer > box {
 }
 
 .titlebar headerbar + separator {
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.04);
 }
 
 .titlebar .linked:not(.vertical) > entry:not(:only-child) {
@@ -1411,7 +1411,7 @@ searchbar > revealer > box {
 }
 
 .titlebar button.suggested-action:disabled, .titlebar button.destructive-action:disabled {
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -1561,7 +1561,7 @@ headerbar button {
 headerbar separator.titlebutton {
   margin-top: 10px;
   margin-bottom: 10px;
-  background-color: rgba(255, 255, 255, 0.12);
+  background-color: rgba(255, 255, 255, 0.04);
 }
 
 headerbar switch {
@@ -4312,12 +4312,12 @@ popover.emoji-completion .emoji:hover {
 }
 
 .path-bar-box.width-maximized {
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .path-bar-box.background.frame {
   border-style: none;
-  background-color: rgba(255, 255, 255, 0.04);
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
 .path-bar-box .path-bar button label:not(:only-child):first-child {
@@ -4688,7 +4688,7 @@ hdyleaflet.titlebar > .titlebar.tweak-titlebar-right {
 hdyleaflet.titlebar > .titlebar.tweak-titlebar-left + separator,
 hdyleaflet.titlebar > .titlebar.tweak-titlebar-right + separator {
   background-color: inherit;
-  background-image: image(rgba(255, 255, 255, 0.12));
+  background-image: image(rgba(255, 255, 255, 0.04));
 }
 
 /************************
@@ -6189,12 +6189,12 @@ PanelToplevel.vertical > grid > button {
 }
 
 PanelSeparator {
-  color: rgba(255, 255, 255, 0.12);
+  color: rgba(255, 255, 255, 0.04);
 }
 
 MatePanelAppletFrameDBus {
   border-style: solid;
-  border-color: rgba(255, 255, 255, 0.12);
+  border-color: rgba(255, 255, 255, 0.04);
 }
 
 .mate-panel-menu-bar.horizontal MatePanelAppletFrameDBus {
@@ -6818,7 +6818,7 @@ MsdOsdWindow.background.osd .progressbar {
 }
 
 .workspace-switcher .workspace-layout {
-  border: 0 solid rgba(255, 255, 255, 0.12);
+  border: 0 solid rgba(255, 255, 255, 0.04);
 }
 
 .top .workspace-switcher .workspace-layout:dir(ltr), .bottom .workspace-switcher .workspace-layout:dir(ltr) {
@@ -6835,7 +6835,7 @@ MsdOsdWindow.background.osd .progressbar {
 
 .workspace-switcher .workspace-item,
 .workspace-switcher .workspace-add-button {
-  border: 0 solid rgba(255, 255, 255, 0.12);
+  border: 0 solid rgba(255, 255, 255, 0.04);
 }
 
 .top .workspace-switcher .workspace-item:dir(ltr), .bottom .workspace-switcher .workspace-item:dir(ltr), .top .workspace-switcher .workspace-add-button:dir(ltr), .bottom .workspace-switcher .workspace-add-button:dir(ltr) {
@@ -6894,7 +6894,7 @@ MsdOsdWindow.background.osd .progressbar {
   padding: 0;
   margin: 0;
   border-radius: 9999px;
-  background-image: image(rgba(255, 255, 255, 0.12));
+  background-image: image(rgba(255, 255, 255, 0.04));
 }
 
 .budgie-panel button.budgie-menu-launcher:hover {

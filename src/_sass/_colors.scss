@@ -31,8 +31,8 @@
     @if ($state == 'secondary-disabled') { @return rgba(white, 0.3); }
     @if ($state == 'track') { @return rgba(white, 0.3); }
     @if ($state == 'track-disabled') { @return rgba(white, 0.12); }
-    @if ($state == 'divider') { @return rgba(white, 0.12); }
-    @if ($state == 'fill') { @return rgba(white, 0.04); }
+    @if ($state == 'divider') { @return rgba(white, 0.04); }
+    @if ($state == 'fill') { @return rgba(white, 0.1); }
   }
 }
 
